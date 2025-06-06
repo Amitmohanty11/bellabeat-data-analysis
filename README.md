@@ -6,8 +6,7 @@ This project explores and analyzes the Bellabeat Fitbit dataset to understand us
 
 ## 📊 Project Objectives
 
-- Perform **Exploratory Data Analysis (EDA)** on daily activity data
-- Visualize key metrics such as **Calories**, **Steps**, **Activity Minutes**, and **Distance**
+- Perform **Exploratory Data Analysis (EDA)** on daily activity data,WeightInfo data and Sleep days data
 - Discover correlations between various physical activity factors
 - Provide data-driven insights for better health recommendations
 
@@ -18,6 +17,7 @@ This project explores and analyzes the Bellabeat Fitbit dataset to understand us
 The main dataset used is:  
 📂 `dailyActivity_merged.csv`  
 📂 `weightLogInfo_merged.csv` 
+📂 `SleepDay_merged.csv`
 
 
 ## 📌 Key Libraries Used
@@ -38,6 +38,10 @@ The main dataset used is:
 - line plots for BMI over time
 - BMI vs Weight (regression plot)
 - Distribution of BMI over all data
+- lineplot of total time in bed and total time asleep over time
+- total time asleep vs total time in bed (regression plot)
+- Distribution of total time asleep and total time in bed
+- comparisison of time asleep and time in bed
 
 ---
 
@@ -51,4 +55,4 @@ The main dataset used is:
 ## 🙌 Author
 
 **Amit Mohanty**  
-*Data Analyst | Python | SQL | Power BI* 
+* Python | SQL | Power BI* 
